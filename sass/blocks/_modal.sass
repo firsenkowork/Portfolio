@@ -1,0 +1,80 @@
+.modal
+  &-form
+    background: #FFFFFF
+    box-shadow: -5px 5px 0px #FFC41D
+    border-radius: 5px
+    max-width: 380px 
+    padding-top: 40px
+    padding-left: 48px
+    padding-right: 48px
+    padding-bottom: 49px
+    &__title
+      font-weight: bold
+      font-size: 18px
+      line-height: 28px
+      text-align: center
+      color: #000000
+      margin: 0
+      margin-bottom: 29px
+  &-input
+    background: #F8F8F8
+    border: none
+    box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25)
+    border-radius: 5px
+    padding: 18px 20px
+    padding-left: 50px
+    width: 100% 
+    font-weight: normal
+    font-size: 14px
+    line-height: 28px
+    margin-top: 17px
+    &__name
+      background-image: url(../img/icons/user.svg)
+      background-repeat: no-repeat
+      background-position: center left 20px
+    &__phone
+      background-image: url(../img/icons/phone.svg)
+      background-repeat: no-repeat
+      background-position: center left 20px
+    &__mail
+      background-image: url(../img/icons/mail.svg)
+      background-repeat: no-repeat
+      background-position: center left 20px
+  &-overlay
+    position: fixed
+    left: 0
+    right: 0
+    top: 0
+    bottom: 0
+    background-color: rgba(0, 143, 223, 0.39)
+    z-index: 100
+    visibility: hidden
+    opacity: 0
+    &--visible
+      visibility: visible
+      opacity: 1
+  &-dialog
+    position: fixed
+    top: 50%
+    left: 50% 
+    transform: translate(-50%, -50%)
+    z-index: 101
+    visibility: hidden
+    opacity: 0
+    &--visible
+      visibility: visible
+      opacity: 1
+  &-close
+    display: block
+    margin-left: 100%
+    margin-bottom: 10px
+    bottom: 50px
+    text-decoration: none
+    cursor: pointer
+  &-button
+    margin-top: 17px
+    width: 100% 
+    
+
+    
+    
